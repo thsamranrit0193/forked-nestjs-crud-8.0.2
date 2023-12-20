@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2018",
+    "sourceMap": true,
+    "allowJs": false,
+    "skipLibCheck": false,
+    "composite": true,
+    "baseUrl": "./packages",
+    "paths": {
+      "@lab3dvlp/crud": ["crud/src"],
+      "@lab3dvlp/crud-typeorm": ["crud-typeorm/src"],
+      "@lab3dvlp/crud-request": ["crud-request/src"],
+      "@lab3dvlp/crud-util": ["crud-util/src"],
+      "@lab3dvlp/crud/*": ["crud/src/*"],
+      "@lab3dvlp/crud-typeorm/*": ["crud-typeorm/src/*"],
+      "@lab3dvlp/crud-request/*": ["crud-request/src/*"],
+      "@lab3dvlp/crud-util/*": ["crud-util/src/*"]
+    }
+  },
+  "references": [
+    { "path": "crud" },
+    { "path": "crud-typeorm" },
+    { "path": "crud-request" },
+    { "path": "crud-util" }
+  ]
+}

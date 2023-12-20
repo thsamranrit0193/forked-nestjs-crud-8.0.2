@@ -1,0 +1,41 @@
+{
+  "name": "@lab3dvlp/crud-util",
+  "description": "NestJs CRUD for RESTful APIs - util",
+  "version": "8.0.2",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dataui/crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dataui/crud/issues"
+  },
+  "keywords": [
+    "typescript",
+    "typeorm",
+    "nest",
+    "nestjs",
+    "rest",
+    "restful",
+    "api",
+    "crud",
+    "crud-generator"
+  ],
+  "author": {
+    "name": "Michael Yali",
+    "email": "mihon4ik@gmail.com"
+  },
+  "scripts": {
+    "build": "npx tsc -b"
+  },
+  "gitHead": "d6558967db3897a92802b3404530887bcb0eacaa"
+}
